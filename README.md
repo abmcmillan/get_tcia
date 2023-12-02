@@ -16,7 +16,7 @@ This simple Python script is designed to download images from the TCIA (The Canc
 To use this script from the command line, you need to provide the path to the manifest file and the output folder where the images will be saved. Optionally, you can specify the number of concurrent download jobs.
 
 ```bash
-python tcia_downloader.py -m <path_to_manifest_file> -o <output_folder_path> --njobs <number_of_concurrent_jobs>
+python get_tcia.py -m <path_to_manifest_file> -o <output_folder_path> --njobs <number_of_concurrent_jobs>
 ```
 
 ### As a Function in Python
@@ -24,7 +24,7 @@ python tcia_downloader.py -m <path_to_manifest_file> -o <output_folder_path> --n
 You can also use the download_from_manifest function in other Python scripts. The function requires the path to the manifest file, the output base path, and the number of jobs (optional).
 
 ```python
-from tcia_downloader import download_from_manifest
+from get_tcia import download_from_manifest
 
 download_from_manifest('path_to_manifest.txt', 'path_to_output_folder', njobs=5)
 ```
