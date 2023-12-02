@@ -1,6 +1,8 @@
 # TCIA Image Downloader
 
-This simply Python script is designed to download images from the TCIA (The Cancer Imaging Archive) website using a specified manifest file. It supports downloading multiple series concurrently and includes a retry mechanism for robustness.
+This simple Python script is designed to download images from the TCIA (The Cancer Imaging Archive) website using a specified manifest file. It supports downloading multiple series concurrently and includes a retry mechanism for robustness.
+
+Alan McMillan 2023-12
 
 ## Features
 - Download images based on series IDs listed in a manifest file.
